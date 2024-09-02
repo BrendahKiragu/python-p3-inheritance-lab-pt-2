@@ -14,7 +14,7 @@ class ChattyStudent(Student):
 
     def raise_hand(self):
         super().raise_hand()
-        for i in range(1, 10) :
+        for _ in range(1, 10) :
             print("Pick me!")
         
 
